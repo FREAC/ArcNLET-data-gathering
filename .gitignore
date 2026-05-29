@@ -216,3 +216,70 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ---------------------------------------------------------------------------
+# FREAC / ArcNLET local workspace files, GIS data, and generated outputs
+# ---------------------------------------------------------------------------
+
+# VS Code local settings
+# Usually contains machine-specific interpreter paths such as ArcGIS Pro conda paths.
+.vscode/
+
+# Runtime logs and generated output folders
+logs/
+outputs/
+scratch/
+temp/
+intermediate/
+
+# Local secrets, credentials, and machine-specific configuration
+.env
+credentials.json
+token.json
+config_local.py
+
+# ArcGIS lock and index files
+*.lock
+*.sr.lock
+*.freelist
+*.atx
+*.spx
+
+# File geodatabases and Esri database internals
+*.gdb/
+*.gdbtable
+*.gdbtablx
+*.gdbindexes
+*.gdbinit
+*.gdbtimestamps
+
+# Shapefile components
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.qix
+
+# Raster, elevation, lidar, sonar, and bathymetry files
+*.tif
+*.tiff
+*.img
+*.jp2
+*.las
+*.laz
+*.bag
+
+# Other GIS / database / spatial data formats
+*.gpkg
+*.sqlite
+*.sqlite3
+*.mdb
+
+# Large tabular data outputs from API pulls or processing workflows
+*.csv
+*.xlsx
+*.xls
