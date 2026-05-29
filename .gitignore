@@ -281,5 +281,6 @@ config_local.py
 
 # Large tabular data outputs from API pulls or processing workflows
 *.csv
+!sample_data/*.csv
 *.xlsx
 *.xls
